@@ -13,6 +13,24 @@ namespace FlightReservation {
     public partial class Default {
         
         /// <summary>
+        /// radioTwoWay control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radioTwoWay;
+        
+        /// <summary>
+        /// radioOneWay control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton radioOneWay;
+        
+        /// <summary>
         /// ddlFrom control.
         /// </summary>
         /// <remarks>

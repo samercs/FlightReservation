@@ -21,5 +21,11 @@ namespace FlightReservation
                 }
             }
         }
+
+        protected void btnSearch_OnClick(object sender, EventArgs e)
+        {
+            var type = radioOneWay.Checked ? 1 : 2;
+            Response.Redirect($"Search.aspx?from={ddlFrom.SelectedValue}&to={ddlTo.SelectedValue}&type={type}");
+        }
     }
 }

@@ -65,6 +65,7 @@
     <Content Include="img\about\3.jpg" />
     <Content Include="img\about\4.jpg" />
     <Content Include="img\header-bg.jpg" />
+    <Content Include="img\home\home2.jpg" />
     <Content Include="img\home\home.jpg" />
     <Content Include="img\logos\aetuts.jpg" />
     <Content Include="img\logos\creative-market.jpg" />
@@ -93,6 +94,15 @@
     <Content Include="js\agency.min.js" />
     <Content Include="js\contact_me.js" />
     <Content Include="js\jqBootstrapValidation.js" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="css\jquery-ui.min.css" />
+    <Content Include="js\jquery-ui.min.js" />
+    <Content Include="css\jquery-ui.structure.css" />
+    <Content Include="css\jquery-ui.structure.min.css" />
+    <Content Include="css\jquery-ui.theme.css" />
+    <Content Include="css\jquery-ui.theme.min.css" />
+    <Content Include="Search.aspx" />
     <Content Include="vendor\bootstrap\css\bootstrap.css" />
     <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
     <Content Include="vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
@@ -106,6 +116,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
     <Content Include="Code\AppFunctions.cs" />
     <Content Include="Code\ImageResize.cs" />
     <Compile Include="Code\Database.cs" />

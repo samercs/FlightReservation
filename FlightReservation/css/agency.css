@@ -271,6 +271,10 @@ header .intro-text .intro-heading {
     line-height: 75px;
     margin-bottom: 50px;
   }
+  header.header2 .intro-text {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
 }
 section {
   padding: 100px 0;
@@ -744,4 +748,22 @@ body {
   padding-top: 20px;
   border-top: solid 2px #333333;
   text-align: right;
+}
+header.header2 {
+  background-image: url('../img/home/home2.jpg');
+}
+header.header2 .intro-text .intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+header.header2 .intro-text .intro-heading {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
 }
